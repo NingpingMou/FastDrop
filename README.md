@@ -12,11 +12,12 @@ Above is an overview of our method. For details, read [our paper](https://www.ij
 
 ---
 
-> python attack-imagenet.py
->
-> python attack-cifar10.py
+```
+python attack-imagenet.py # fastdrop for imagenet
+python attack-cifar10.py  # fastdrop for cifar10
+```
 
-We provide the test set for cifar10. All images are correctly classified by the target model.
+We provide a test set for cifar10 in ./data. All images are correctly classified by the target model.
 
 
 
@@ -32,18 +33,17 @@ Previous researches have demonstrated deep learning models' vulnerabilities to d
 
 ---
 
-> ```
-> @inproceedings{DBLP:conf/ijcai/MouZWGG22,
->   author    = {Ningping Mou and
->                Baolin Zheng and
->                Qian Wang and
->                Yunjie Ge and
->                Binqing Guo},
->   title     = {A Few Seconds Can Change Everything: Fast Decision-based Attacks against
->                DNNs},
->   booktitle = {Proceedings of the Thirty-First International Joint Conference on
->                Artificial Intelligence, {IJCAI} 2022, Vienna, Austria, 23-29 July
->                2022},
->   year      = {2022}
-> }
-> ```
+```@inproceedings{DBLP:conf/ijcai/MouZWGG22,
+author    = {Ningping Mou and
+            Baolin Zheng and
+            Qian Wang and
+            Yunjie Ge and
+            Binqing Guo},
+title     = {A Few Seconds Can Change Everything: Fast Decision-based Attacks against
+            DNNs},
+booktitle = {Proceedings of the Thirty-First International Joint Conference on
+            Artificial Intelligence, {IJCAI} 2022, Vienna, Austria, 23-29 July
+            2022},
+year      = {2022}
+}
+```
