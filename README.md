@@ -13,7 +13,7 @@ python attack-imagenet.py # fastdrop for imagenet
 python attack-cifar10.py  # fastdrop for cifar10
 ```
 
-We provide a test set for cifar10 in ./data. All images are correctly classified by the target model.
+
 
 # Abstract
 
