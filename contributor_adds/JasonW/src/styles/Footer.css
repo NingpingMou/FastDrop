@@ -1,0 +1,179 @@
+/*-This file contains styles for the Footer component */
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 60px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.footer-section h3 {
+  color: #3498db;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-section p {
+  margin: 0;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s;
+  opacity: 0.8;
+}
+
+.footer-links a:hover {
+  color: #3498db;
+  opacity: 1;
+}
+
+.footer-bottom {
+  background-color: #1a252f;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+  opacity: 0.7;
+}
+
+.footer-disclaimer {
+  font-style: italic;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px 0;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0;
+  }
+}
+
+
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 60px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.footer-section h3 {
+  color: #3498db;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-section p {
+  margin: 0;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s;
+  opacity: 0.8;
+}
+
+.footer-links a:hover {
+  color: #3498db;
+  opacity: 1;
+}
+
+.footer-bottom {
+  background-color: #1a252f;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+  opacity: 0.7;
+}
+
+.footer-disclaimer {
+  font-style: italic;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px 0;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0;
+  }
+}
